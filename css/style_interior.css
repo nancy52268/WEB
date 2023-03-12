@@ -1,0 +1,231 @@
+/*---------------------*/
+/* $Catalog
+-----------------------*/
+/*
+ * Globel
+ * Elements
+ * 
+ * 
+ * Header
+ * About
+ * Project
+ * Srvice
+ * Contact
+ * Footer
+ * Parallax graphic
+ */
+
+
+
+
+/*-------------------------*/
+/* $background
+---------------------------*/
+.bg{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-image: url('../images/bg01.png');
+	background-size: cover;
+	background-position: center;
+}
+
+
+
+/*-------------------------*/
+/* $font import
+---------------------------*/
+@font-face {
+     font-family: 'Prompt';
+     src: url(../font/Prompt-Bold.woff) format('woff');
+     src: url(../font/Prompt-Regular.woff) format('woff');
+ }
+
+/*-------------------------*/
+/* $globel
+---------------------------*/
+body{
+	font-family: 'Prompt', sans-serif;
+}
+
+/*-------------------------*/
+/* $element
+---------------------------*/
+
+
+/*-------------------------*/
+/* $text
+---------------------------*/
+.info{
+	
+}
+.info .info_title{
+	font-size: 48px;
+	font-weight: 700;
+	line-height: 52px;
+	margin-top: 60px;
+	margin-bottom: 20px;
+	color: #4a686a;
+}
+.info-text{
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 28px;
+	color: #4a686a;
+	margin-bottom: 16px;
+}
+
+/*-------------------------*/
+/* $icon
+---------------------------*/
+
+
+/*-------------------------*/
+/* $button
+---------------------------*/
+.btn{
+	background-color: #fdb137;
+	font-family: 'Prompt', sans-serif;
+	font-size: 20px;
+	padding: 12px 18px;
+	color: #ffffff;
+	border-radius: 10px;
+	margin-top: 20px;
+}
+.scrolldown-btn{
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	position: absolute;
+	background-image: url('../images/scroll down.png');
+	background-size: 30px;
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	/*bottom: 24px;*/
+	left: 50%;
+	transform: translateX(-50%);
+	/*border: 1px solid #fdb137;*/
+}
+
+/*-------------------------*/
+/* $image
+---------------------------*/
+.imgbox{
+	width: 100%;
+	overflow: hidden;
+	/*border: 1px solid red;*/
+}
+.image-inner{
+	/*padding: 24px;*/
+	width: 100%;
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%);
+	border: 1px solid pink;
+}
+.imgbox-inner .image{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	vertical-align: middle;
+	background-size: cover;
+	background-position: center;
+}
+
+/*-------------------------*/
+/* $layout
+---------------------------*/
+
+
+/*-------------------------*/
+/* $header
+---------------------------*/
+.header{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 100;
+	/*transition: all 0.3s;*/
+}
+.navbar{
+	padding: 0;
+	/*border: 1px solid red;*/
+}
+.navbar_logo{
+	display: inline-block;
+	width: 180px;
+	height: 60px;
+	background: url('../images/LOGO.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 160px;
+	/*border: 1px solid green;*/
+	margin-top: 12px;
+}
+.navbar_nav{
+	padding-top: 12px;
+	float: right;
+}
+.navbar_nav ul{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding: 0;
+}
+.nav_menu li{
+	display: inline-block;
+	list-style-type: none;
+}
+.navbar_nav .nav-item {
+	float: right;
+	display: inline-block;
+	padding: 16px;
+	color: #4a686a;
+	line-height: 32px;
+	font-size: 20px;
+	/*border: 1px solid black;*/
+} 
+
+
+/*-------------------------*/
+/* $Home
+---------------------------*/
+.main{
+	
+}
+.about{
+	border: 1px solid green;
+	padding-top: 24vh;
+	padding-bottom: 24vh;
+}
+
+
+/*-------------------------*/
+/* $project
+---------------------------*/
+.project{
+	border: 1px solid green;
+	padding-top: 24vh;
+	padding-bottom: 24vh;
+}
+
+
+/*-------------------------*/
+/* $thumbnail
+---------------------------*/
+
+
+/*-------------------------*/
+/* $contact
+---------------------------*/
+
+
+/*-------------------------*/
+/* $footer
+---------------------------*/
